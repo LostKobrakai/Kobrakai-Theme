@@ -10,7 +10,7 @@
 /*
  * Corrects `block` display not defined in IE 8/9.
  */
-/* line 21, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 21, _normalize.scss */
 article,
 aside,
 details,
@@ -28,7 +28,7 @@ summary {
 /*
  * Corrects `inline-block` display not defined in IE 8/9.
  */
-/* line 31, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 31, _normalize.scss */
 audio,
 canvas,
 video {
@@ -39,7 +39,7 @@ video {
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 40, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 40, _normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -48,7 +48,7 @@ audio:not([controls]) {
 /*
  * Addresses styling for `hidden` attribute not present in IE 8/9.
  */
-/* line 49, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 49, _normalize.scss */
 [hidden] {
   display: none;
 }
@@ -61,7 +61,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 63, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 63, _normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -74,7 +74,7 @@ html {
 /*
  * Removes default margin.
  */
-/* line 73, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 73, _normalize.scss */
 body {
   margin: 0;
 }
@@ -85,7 +85,7 @@ body {
 /*
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
-/* line 85, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 85, _normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -93,7 +93,7 @@ a:focus {
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-/* line 94, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 94, _normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -106,7 +106,7 @@ a:hover {
  * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
  * Safari 5, and Chrome.
  */
-/* line 107, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 107, _normalize.scss */
 h1 {
   font-size: 2em;
 }
@@ -114,7 +114,7 @@ h1 {
 /*
  * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 115, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 115, _normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -122,7 +122,7 @@ abbr[title] {
 /*
  * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 124, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 124, _normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -131,7 +131,7 @@ strong {
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
-/* line 132, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 132, _normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -139,7 +139,7 @@ dfn {
 /*
  * Addresses styling not present in IE 8/9.
  */
-/* line 140, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 140, _normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -148,7 +148,7 @@ mark {
 /*
  * Corrects font family set oddly in Safari 5 and Chrome.
  */
-/* line 153, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 153, _normalize.scss */
 code,
 kbd,
 pre,
@@ -160,7 +160,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers.
  */
-/* line 162, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 162, _normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -170,7 +170,7 @@ pre {
 /*
  * Sets consistent quote types.
  */
-/* line 172, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 172, _normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -178,7 +178,7 @@ q {
 /*
  * Addresses inconsistent and variable font size in all browsers.
  */
-/* line 180, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 180, _normalize.scss */
 small {
   font-size: 80%;
 }
@@ -186,7 +186,7 @@ small {
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 189, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 189, _normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -195,12 +195,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 196, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 196, _normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 200, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 200, _normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -211,7 +211,7 @@ sub {
 /*
  * Removes border when inside `a` element in IE 8/9.
  */
-/* line 212, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 212, _normalize.scss */
 img {
   border: 0;
 }
@@ -219,7 +219,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE 9.
  */
-/* line 220, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 220, _normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -230,7 +230,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE 8/9 and Safari 5.
  */
-/* line 232, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 232, _normalize.scss */
 figure {
   margin: 0;
 }
@@ -241,9 +241,9 @@ figure {
 /*
  * Define consistent border, margin, and padding.
  */
-/* line 244, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 244, _normalize.scss */
 fieldset {
-  border: 1px solid silver;
+  border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -252,7 +252,7 @@ fieldset {
  * 1. Corrects color not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 255, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 255, _normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -265,7 +265,7 @@ legend {
  * 2. Corrects font size not being inherited in all browsers.
  * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
  */
-/* line 269, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 269, _normalize.scss */
 button,
 input,
 select,
@@ -282,7 +282,7 @@ textarea {
  * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 281, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 281, _normalize.scss */
 button,
 input {
   line-height: normal;
@@ -295,7 +295,7 @@ input {
  * 3. Improves usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 296, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 296, _normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -309,7 +309,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 306, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 306, _normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -319,7 +319,7 @@ input[disabled] {
  * 1. Addresses box sizing set to `content-box` in IE 8/9.
  * 2. Removes excess padding in IE 8/9.
  */
-/* line 316, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 316, _normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -333,7 +333,7 @@ input[type="radio"] {
  * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 327, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 327, _normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -347,7 +347,7 @@ input[type="search"] {
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 340, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 340, _normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -356,7 +356,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Removes inner padding and border in Firefox 4+.
  */
-/* line 349, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 349, _normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -367,7 +367,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE 8/9.
  * 2. Improves readability and alignment in all browsers.
  */
-/* line 359, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 359, _normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -381,20 +381,20 @@ textarea {
 /*
  * Remove most spacing between table cells.
  */
-/* line 372, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/_normalize.scss */
+/* line 372, _normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 14, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/style.scss */
+/* line 14, style.scss */
 body {
   width: 100%;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   overflow: hidden;
 }
 
-/* line 20, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/style.scss */
+/* line 20, style.scss */
 header {
   background-color: #323232;
   color: #f7f7f7;
@@ -402,17 +402,17 @@ header {
   padding: 0 10px;
 }
 
-/* line 27, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/style.scss */
+/* line 27, style.scss */
 header .title {
   margin-bottom: 10px;
 }
-/* line 28, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/style.scss */
+/* line 28, style.scss */
 header .title .header_logo {
   width: 50px;
   height: 50px;
   vertical-align: middle;
 }
-/* line 34, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/style.scss */
+/* line 34, style.scss */
 header .title h1 {
   display: inline;
   text-transform: uppercase;
@@ -422,35 +422,35 @@ header .title h1 {
   vertical-align: middle;
 }
 
-/* line 45, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/style.scss */
+/* line 45, style.scss */
 nav {
   text-transform: uppercase;
   font-weight: 700;
   line-height: 30px;
 }
-/* line 49, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/style.scss */
+/* line 49, style.scss */
 nav ul {
   margin: 0;
   padding: 0;
 }
-/* line 52, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/style.scss */
+/* line 52, style.scss */
 nav ul li {
   display: inline-block;
   margin-right: 10px;
 }
-/* line 55, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/style.scss */
+/* line 55, style.scss */
 nav ul li a {
   color: #f7f7f7;
   text-decoration: none;
   display: inline-block;
   height: 100%;
 }
-/* line 61, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/style.scss */
+/* line 61, style.scss */
 nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* line 68, C:/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/style.scss */
+/* line 68, style.scss */
 .content {
   height: 500px;
 }
