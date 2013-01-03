@@ -1,0 +1,503 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"di",
+				"d-ib	display: inline-block;"
+			],
+			[
+				"l",
+				"link	Tag"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"sli",
+				"slides"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"att",
+				"att_posts"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"glo",
+				"global"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"img",
+				"img_classes"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"text",
+				"textwrapper"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fn",
+				"font-style"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"imap_fe",
+				"imap_fetchstructure"
+			],
+			[
+				"utf",
+				"utf8_encode"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"o",
+				"overflow	overflow: type"
+			],
+			[
+				"ch",
+				"charAt"
+			],
+			[
+				"length",
+				"length-1"
+			],
+			[
+				"de",
+				"disabled"
+			],
+			[
+				"at",
+				"attr"
+			],
+			[
+				"change",
+				"change_input"
+			],
+			[
+				"al",
+				"alte_inputs"
+			],
+			[
+				"base",
+				"base64"
+			],
+			[
+				"v",
+				"vertical-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/style.scss",
+			"settings":
+			{
+				"buffer_size": 1247,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 855,
+				"line_ending": "Windows",
+				"name": "<!doctype html>"
+			}
+		}
+	],
+	"build_system": "Packages/Compass/Compass.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Benni/AppData/Roaming/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/Benni/AppData/Roaming/Sublime Text 2/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/Benni/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/screen.scss",
+		"/C/Users/Benni/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/C/Daten/Dropbox/Programme/Sublime Text 2/Packages/Compass/compasswatch.bat",
+		"/C/Daten/Dropbox/Programme/Sublime Text 2/Packages/Compass/Compass.sublime-build",
+		"/C/Daten/Dropbox/Programme/Sublime Text 2/Packages/SASS/SASS (Windows).sublime-build",
+		"/C/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/screen.css",
+		"/C/Daten/Dropbox/Programme/Sublime Text 2/Packages/SCSS-Compass/SCSS-WIN.sublime-build",
+		"/C/Daten/Dropbox/Programme/Sublime Text 2/Packages/SASS/sasswatch.bat",
+		"/C/Daten/Dropbox/Programme/Sublime Text 2/Packages/SASS/SASS (OSX).sublime-build",
+		"/C/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/config.rb",
+		"/C/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/sass/screen.scss",
+		"/C/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/scss/style.scss",
+		"/C/Users/Benni/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Daten/Projekte/Git/Kobrakai-Theme/kobrakai 6/css/style.scss",
+		"/C/Daten/Projekte/Git/Kobrakai-Theme/test/sass/screen.scss",
+		"/C/Daten/Projekte/Git/Kobrakai-Theme/test/stylesheets/screen.css",
+		"/C/Program Files/Adobe/Adobe Photoshop Lightroom 4.2/koken.lrplugin/JSON.lua",
+		"/C/Program Files/Adobe/Adobe Photoshop Lightroom 4.2/koken.lrplugin/KokenAPI.lua",
+		"/C/Program Files/Adobe/Adobe Photoshop Lightroom 4.2/koken.lrplugin/KokenExportServiceProvider.lua",
+		"/C/Program Files/Adobe/Adobe Photoshop Lightroom 4.2/koken.lrplugin/Info.lua",
+		"/C/Daten/Projekte/Paul/Weinreferent/Meine/impressum.html",
+		"/C/Daten/Projekte/Paul/Weinreferent/Meine/galerie.html",
+		"/C/Users/Benni/Documents/maya/2013-x64/prefs/scripts/00_dofControl.mel",
+		"/C/Users/Benni/Documents/maya/2013-x64/prefs/scripts/00_XRay_toggle_object.mel",
+		"/C/Users/Benni/Desktop/20120501-_BEN5484.jpg",
+		"/C/Daten/Projekte/Paul/Weinreferent/Meine/weinundkaese.html",
+		"/C/Daten/Projekte/Paul/Weinreferent/Meine/uebermich.html",
+		"/C/Daten/Projekte/Paul/Weinreferent/Meine/seminare.html",
+		"/C/Daten/Projekte/Paul/Weinreferent/Meine/referenzen.html",
+		"/C/Daten/Projekte/Paul/Weinreferent/Meine/partner.html",
+		"/C/Daten/Projekte/Paul/Weinreferent/Meine/kontakt.html",
+		"/C/Daten/Projekte/Paul/Weinreferent/Meine/home.html",
+		"/C/Daten/Projekte/Paul/Weinreferent/Meine/beratung.html",
+		"/C/Daten/Projekte/Paul/Weinreferent/Meine/index.html",
+		"/C/Daten/Projekte/Paul/Weinreferent/Meine/css/style.css",
+		"/C/Users/Benni/Desktop/themes/axis/set.lens",
+		"/C/Users/Benni/Desktop/themes/axis/js/less-1.3.0.min.js",
+		"/C/Users/Benni/Desktop/themes/axis/index.lens",
+		"/C/Users/Benni/Desktop/themes/madison/layouts/content_loop.html",
+		"/C/Users/Benni/Desktop/themes/madison/info.json",
+		"/C/Users/Benni/Desktop/themes/madison/layouts/footer.html",
+		"/C/Users/Benni/Desktop/themes/madison/page.lens",
+		"/C/Users/Benni/Desktop/themes/madison/index.lens",
+		"/C/Users/Benni/Desktop/themes/madison/layouts/header.html",
+		"/C/Users/Benni/Desktop/themes/madison/css/settings.css.lens",
+		"/C/Users/Benni/Desktop/themes/madison/js/jquery.smooth-scroll.min.js",
+		"/C/Users/Benni/Desktop/themes/madison/preview.jpg",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/W/github_kobrakai/wp-content/themes/kobrakai 3/comments.php",
+		"/W/github_kobrakai/wp-content/themes/kobrakai 3/style.css",
+		"/W/github_kobrakai/wp-content/themes/kobrakai 3/functions.php",
+		"/W/github_kobrakai/wp-content/themes/kobrakai 3/js/swipe.js",
+		"/W/github_kobrakai/wp-content/themes/kobrakai 3/script.js",
+		"/W/github_kobrakai/wp-content/themes/kobrakai 3/single.php",
+		"/W/github_kobrakai/wp-content/themes/kobrakai 3/index.php",
+		"/C/Program Files/Adobe/Adobe Photoshop Lightroom 4/koken.lrplugin/JSON.lua",
+		"/C/Users/Benni/Desktop/index.php",
+		"/W/Swipe/swipe.js",
+		"/C/Daten/Dropbox/themes/kobrakai 3/js/swipe.min.js",
+		"/W/github_kobrakai/wp-content/themes/kobrakai 3/swipe.min.js",
+		"/W/github_kobrakai/wp-content/themes/kobrakai 3/placeholder.php",
+		"/C/Daten/Dropbox/themes/kobrakai 3/style.css",
+		"/C/Daten/Dropbox/themes/kobrakai 3/script.js",
+		"/C/Daten/Dropbox/themes/kobrakai 3/functions.php",
+		"/C/Daten/Dropbox/themes/kobrakai 3/index.php",
+		"/C/Users/Benni/AppData/Roaming/Sublime Text 2/Packages/CSS/csscomb_for_sublime-text-2_2-11/src/plugins/csscomb.sublime_text_2/README.md",
+		"/C/Daten/Projekte/Email/index.php",
+		"/C/Daten/Projekte/Email/send.php",
+		"/C/Users/Benni/Desktop/Almanach/style.css",
+		"/C/Users/Benni/Desktop/Almanach/index.html",
+		"/C/Users/Benni/AppData/Local/Temp/7zO2197.tmp/stylesheet.css",
+		"/C/Users/Benni/AppData/Local/Temp/7zOF6EF.tmp/stylesheet.css",
+		"/C/Users/Benni/Desktop/stehsatz/style.css",
+		"/C/Daten/Projekte/Own WordpressTheme/reset.css",
+		"/C/Users/Benni/Desktop/stehsatz/sidebar.php",
+		"/C/Users/Benni/Desktop/stehsatz/page-gallery.php",
+		"/C/Users/Benni/Desktop/thumbnail.php",
+		"/C/Users/Benni/Desktop/stehsatz/single.php",
+		"/C/Daten/Dropbox/3 Semester/Typografie III/#8 Print Projekt/Chiffre.html",
+		"/C/Daten/Dropbox/Schmitz Blog/wordpress theme/single.php",
+		"/C/Daten/Dropbox/Schmitz Blog/wordpress theme/style.css",
+		"/C/Daten/Dropbox/Schmitz Blog/wordpress theme/footer.php",
+		"/C/Daten/Dropbox/Schmitz Blog/wordpress theme/index.php",
+		"/C/Daten/Dokumente/Startseite Firefox/style.css",
+		"/C/Daten/Dokumente/Startseite Firefox/index.html",
+		"/C/Daten/Dropbox/Schmitz Blog/wordpress theme/functions.php",
+		"/C/Daten/Dropbox/Schmitz Blog/wordpress theme/comments.php",
+		"/C/Daten/Dropbox/Schmitz Blog/index.html",
+		"/C/Daten/Dropbox/Schmitz Blog/wordpress theme/sidebar.php",
+		"/C/Daten/Dropbox/Schmitz Blog/wordpress theme/header.php",
+		"/C/Users/Benni/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"50",
+			"Test",
+			"src",
+			"images",
+			"absolute",
+			"$crop",
+			"56",
+			"34",
+			"%, rgb(34,34,34) 56%);\n	background-image: -o-linear-gradient(bottom, rgb(221,221,221) 0%, rgb(34,34,34) 56%);\n	background-image: -moz-linear-gradient(bottom, rgb(221,221,221) 0%, rgb(34,34,34) 56%);\n	background-image: -webkit-linear-gradient(bottom, rgb(221,221,221) 0%, rgb(34,34,34) 56%);\n	background-image: -ms-linear-gradient(bottom, rgb(221,221,221) 0%, rgb(34,34,34) 56",
+			"12",
+			"51",
+			"17",
+			">",
+			"5"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/style.scss",
+					"settings":
+					{
+						"buffer_size": 1247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS-Compass/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								813,
+								813
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<!doctype html>",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"css/style.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,70 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass";
+@import "normalize";
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+$dark: #323232;
+$light: #f7f7f7;
+$padding: 0 10px;
+
+body{
+	width: 100%;
+	font-family: "PT Sans", Helvetica, Arial, sans-serif;
+	overflow:hidden; // Fix for development
+}
+
+header{
+	background-color: $dark;
+	color: $light;
+	height: 90px;
+	padding: $padding;
+}
+
+header .title{
+	.header_logo{
+		width: 50px;
+		height: 50px;
+		vertical-align: middle;
+	}
+
+	h1{
+		display: inline;
+		text-transform: uppercase;
+		font-size: 30px;
+		letter-spacing: 1px;
+		line-height: 50px;
+		vertical-align: middle;
+	}
+	margin-bottom: 10px;
+}
+
+nav{
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 30px;
+	ul{
+		margin: 0;
+		padding: 0;
+		li{
+			display: inline-block;
+			margin-right: 10px;
+			a{
+				color: $light;
+				text-decoration: none;
+				display: inline-block;
+				height: 100%;
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+.content{
+	height: 500px;
+}
