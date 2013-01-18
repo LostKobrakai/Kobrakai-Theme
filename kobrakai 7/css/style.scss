@@ -1,0 +1,36 @@
+@import "normalize";
+@import"mixins/clearfix";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
+
+@mixin col1{
+	width: 25%;
+	float: left;
+}
+
+@mixin col2{
+	width: 50%;
+	float: left;
+}
+
+@mixin col3{
+	width: 75%;
+	float: left;
+}
+
+@mixin col4{
+	width: 100%;
+}
+
+$padding: 16px;
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	@include col4;
+	border: 16px solid white;
+	background: #ccc;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: 400;
+}
