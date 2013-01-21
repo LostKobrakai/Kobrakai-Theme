@@ -1,36 +1,124 @@
-@import "normalize";
-@import"mixins/clearfix";
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
+@import "compass/reset";
+@import "compass";
+@import "mixins/clearfix";
+@import "susy";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600);
 
-@mixin col1{
-	width: 25%;
-	float: left;
-}
 
-@mixin col2{
-	width: 50%;
-	float: left;
-}
+// Grid stuff
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 6em;            // each column is 4em wide
+$gutter-width   : 2em;            // 1em gutters between columns
+$grid-padding   : $gutter-width;  // grid-padding equal to gutters
+//$container-style: fluid;
 
-@mixin col3{
-	width: 75%;
-	float: left;
-}
-
-@mixin col4{
-	width: 100%;
-}
-
-$padding: 16px;
+//Vertical Rythmn
+$base-font-size: 14px;
+$base-line-height: 24px;
+@include establish-baseline;
+$show-grid-backgrounds: true;
+$show-baseline-grid-backgrounds: true;
+$grid-background-baseline-color: rgba(0, 0, 0, 0.05);
 
 *{
-	box-sizing: border-box;
+	@include border-box-sizing;
+}
+
+img{
+	max-width: 100%;
+	*width: 100%;
 }
 
 body{
-	@include col4;
-	border: 16px solid white;
-	background: #ccc;
+	@include container;
+	background: #fff;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: 400;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h2{
+	@include push(3);
+	@include span-columns(9 omega);
+	@include trailing-border(1px);
+	@include rhythm(0.3,0,0.3,0.3,14px);
+
+	font-weight: 300;
+	color: #ccc;
+	letter-spacing: 1px;
+}
+
+h3{
+	@include rhythm(0.3,0,0.3,0.3,14px);
+
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+p{
+	@include trailer();
+	@include hyphenation;
+}
+
+header{
+	@include container;
+	a{
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+	}
+	img{
+		display: block;
+		margin: 0 auto;
+	}
+	ul, a{
+		@include span-columns(3);
+		@include nth-omega(5n);
+		@include margin-trailer();
+		list-style-type: none;
+		font-weight: 600;
+	}
+	h2{
+		@include push(0);
+	}
+}
+
+.slider{
+	@include span-columns(12 omega);
+}
+
+.arbeiten{
+	@include container;
+	@include trailer(3);
+	section{
+		&:nth-child(2){
+			@include push(3);
+		};
+		&:nth-child(4){
+			@include omega;
+		};
+		@include span-columns(3);
+	}
+}
+
+
+section a {
+	//@include box-shadow(inset 0px 1px 0px 0px #ccc);
+	//border:1px solid #ccc;
+	padding: 0 24px;
+	@include trailing-border(1px);
+	@include rhythm(0,0.3,0.3,0,14px);
+	color: #ccc;
+	background-color:#fff;
+	text-decoration:none;
+	//@include text-shadow(1px 1px 0px #fff);
+
+	&:hover{
+		color: #999;
+	};
+	&:active{
+		position:relative;
+		top:1px;
+	};
 }
