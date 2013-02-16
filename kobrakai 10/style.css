@@ -91,8 +91,9 @@ header{
 .navitem{
 	color: #ccc;
 	font-size: 1.5em;
-	height: 50px;
-	line-height: 50px;
+	height: 49px;
+	line-height: 49px;
+	border-bottom: 1px solid #222;
 }
 
 .navitem a{

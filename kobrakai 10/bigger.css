@@ -10,15 +10,17 @@
 }
 @media (min-height: 435px){
 	.navitem{
-		height: 75px;
-		line-height: 75px;
+		height: 74px;
+		line-height: 74px;
+		border-bottom: 1px solid #222;
 	}
 }
 
 @media (min-height: 560px){
 	.navitem{
-		height: 100px;
-		line-height: 100px;
+		height: 99px;
+		line-height: 99px;
+		border-bottom: 1px solid #222;
 	}
 }
 
