@@ -112,7 +112,7 @@ header{
 
 /*------------- SubNAV --------------*/
 .sidebar{
-	background: #242424;
+	background: url("http://subtlepatterns.com/patterns/escheresque_ste.png");
 	height: 100%;
 	margin-left: 100px;
 	overflow-y: auto;
