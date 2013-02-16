@@ -1,0 +1,42 @@
+/*------------- Height --------------*/
+@media (min-height: 350px){
+	.logobottom{
+		position: absolute;
+		left: 20px;
+		bottom: 10px;
+		height: 60px;
+		display: block;
+	}
+}
+@media (min-height: 435px){
+	.navitem{
+		height: 75px;
+		line-height: 75px;
+	}
+}
+
+@media (min-height: 560px){
+	.navitem{
+		height: 100px;
+		line-height: 100px;
+	}
+}
+
+/*------------- Width --------------*/
+
+@media (min-width: 900px){
+	.wrapper{
+		display: block;
+	}
+	.content{
+		max-width: 40em;
+		padding: 0 1.5em;
+		margin: 0 auto;
+		height: 200%;
+	}
+	.sidebar{
+		width: 350px;
+		float: left;
+		margin-left: 0;
+	}
+}
