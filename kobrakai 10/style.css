@@ -91,7 +91,7 @@ header{
 
 .navitem{
 	color: #ccc;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	height: 49px;
 	line-height: 49px;
 	border-bottom: 1px solid #222;
@@ -166,9 +166,9 @@ header{
 
 /*------------- ICONFONT --------------*/
 @font-face {
-  font-family: 'fontello';
-  src: url("font/fontello.eot?73975351");
-  src: url("font/fontello.eot?73975351#iefix") format('embedded-opentype'), url("font/fontello.woff?73975351") format('woff'), url("font/fontello.ttf?73975351") format('truetype'), url("font/fontello.svg?73975351#fontello") format('svg');
+  font-family: 'entypo_mine';
+  src: url("font/entypo_mine.eot?73975351");
+  src: url("font/entypo_mine.eot?73975351#iefix") format('embedded-opentype'), url("font/entypo_mine.woff?73975351") format('woff'), url("font/entypo_mine.ttf?73975351") format('truetype'), url("font/entypo_mine.svg?73975351#entypo_mine") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -177,16 +177,17 @@ header{
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'fontello';
-    src: url('font/fontello.svg?73975351#fontello') format('svg');
+    font-family: 'entypo_mine';
+    src: url('font/entypo_mine.svg?73975351#entypo_mine') format('svg');
   }
 }
 */
 
 [data-icon]:before {
-  font-family: fontello;
+  font-family: entypo_mine;
   content: attr(data-icon);
   speak: none; /* Not to be trusted, but hey. */
+	-webkit-font-smoothing: antialiased;
 }
 
 .icon-alone {

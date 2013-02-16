@@ -2,10 +2,12 @@
 @media (min-height: 350px){
 	.logobottom{
 		position: absolute;
-		left: 20px;
-		bottom: 10px;
-		height: 60px;
+		bottom: 15px;
 		display: block;
+		width: 100%;
+		text-align: center;
+		font-size: 2em;
+		color: #ccc;
 	}
 }
 @media (min-height: 435px){
