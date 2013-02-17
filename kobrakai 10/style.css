@@ -32,7 +32,7 @@ a:hover{
 .social a{
 	display: inline-block;
 	*display: inline;
-	padding: 0 1em;
+	width: 200px;
 }
 
 p{
@@ -100,7 +100,7 @@ h6{
 }
 
 .tel{
-	margin-right: .3em;
+	padding-right: .3em;
 }
 
 .center{
@@ -266,6 +266,7 @@ iframe{
 }
 
 .social [data-icon]:before{
+	display: inline-block;
 	font-size: 2em;
 	line-height: 1.625em;
 	vertical-align: middle;
